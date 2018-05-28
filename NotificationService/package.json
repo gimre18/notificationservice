@@ -1,0 +1,9 @@
+{
+  "name": "notification-service",
+  "version": "0.0.0",
+  "description": "NotificationService",
+  "main": "app.js",
+  "author": {
+    "name": "gimre"
+  }
+}
