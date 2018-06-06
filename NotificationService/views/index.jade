@@ -1,0 +1,26 @@
+﻿extends layout
+
+extends layout
+
+block content
+	div.container-fluid
+		div.row(style="margin-top:15px;")
+			div.col-xs-12
+				div.panel.panel-default
+					div.panel-heading Validation
+						p
+							div.col-xs-12
+							h5		 Név
+						p
+							div.col-xs-12
+								textarea(id='username' cols='20' rows='1')
+						p
+							div.col-xs-12
+							h5		Email cím
+						p
+							div.col-xs-12
+								textarea(id='email' cols='20' rows='1')
+						p
+							div.col-xs-12
+							button.btn-sm.btn-default.btn(onclick='sendCreatePromotionRequest();') Regisztrálok
+						p
